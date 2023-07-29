@@ -81,7 +81,7 @@ def plot_figure(style_label=""):
 
     fig, axs = plt.subplots(ncols=5, nrows=1, num=style_label,
                             figsize=(14.8, 2.8), layout='constrained')
-    fig.suptitle('Barbie-fied plots V2', x=0.01, ha='left', color='#d74ea2',
+    fig.suptitle('Barbie-fied plots', x=0.01, ha='left', color='#d74ea2',
                  fontsize=14)
 
     plot_scatter(axs[0], prng)

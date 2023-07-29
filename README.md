@@ -7,6 +7,8 @@ A (mostly working) Barbie style for matplotlib, inspired by [theme_barbie.R](htt
 1. Create a virtual environment with matplotlib and numpy
 2. Run [barbie_style_demo.py](./barbie_style_demo.py) to see the Barbie style in action
 
+![](./barbie_style_demo.png)
+
 ## Sources
 
 - barbie.py: Adapted from [the matplotlib style sheets reference](https://matplotlib.org/stable/gallery/style_sheets/style_sheets_reference.html)
