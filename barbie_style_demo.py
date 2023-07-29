@@ -1,14 +1,17 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import matplotlib.colors as mcolors
 import matplotlib.font_manager as font_manager
 from matplotlib import rcParams
 
 # Fixing random state for reproducibility
 np.random.seed(19680801)
 
+# Add Barbie font to the list of available fonts
 font_manager.fontManager.addfont('barbie.ttf')
 rcParams['font.family'] = 'Barbie'
+
+# Use hyphen instead of Unicode minus
+rcParams['axes.unicode_minus'] = False
 
 def plot_scatter(ax, prng, nb_samples=100):
     """Scatter plot."""
@@ -61,7 +64,11 @@ def plot_colored_circles(ax, prng, nb_samples=15):
     ax.set_xlim([-4, 8])
     ax.set_ylim([-5, 6])
     ax.set_aspect('equal', adjustable='box')  # to plot circles as circles
+    ax.set_xlabel('x label')
+    ax.set_ylabel('y label')
+    ax.set_title('Title')
     return ax
+
 
 def plot_histograms(ax, prng, nb_samples=10000):
     """Plot 4 histograms and a text annotation."""

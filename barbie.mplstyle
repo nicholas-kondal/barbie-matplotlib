@@ -27,6 +27,8 @@ ytick.color: bf2986
 axes.grid: False
 axes.facecolor: 00cdff
 axes.edgecolor: eeb4d7
+axes.labelcolor: bf2986
+axes.titlecolor: bf2986
 axes.linewidth: 1.0
 axes.titlesize: 12
 axes.titleweight: bold

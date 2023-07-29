@@ -1,6 +1,6 @@
 # barbie-matplotlib
 
-A (mostly working) Barbie style for matplotlib, inspired by [theme_barbie.R](https://github.com/MatthewBJane/theme_park/blob/main/theme_barbie.R)
+A Barbie style for matplotlib, inspired by [theme_barbie.R](https://github.com/MatthewBJane/theme_park/blob/main/theme_barbie.R)
 
 ## Usage
 
