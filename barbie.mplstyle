@@ -1,4 +1,6 @@
-### FIGURE
+## ***************************************************************************
+## * FIGURE                                                               *
+## ***************************************************************************
 figure.facecolor: 00cdff
 figure.edgecolor: 00cdff
 savefig.facecolor: 00cdff
@@ -7,23 +9,33 @@ figure.dpi: 100
 figure.titlesize: 14
 figure.titleweight: bold
 
-### LINES
+## ***************************************************************************
+## * LINES                                                               *
+## ***************************************************************************
 lines.linewidth: 1.5
 
-### PATCHES
+## ***************************************************************************
+## * PATCHES                                                               *
+## ***************************************************************************
 patch.facecolor: a62675
 patch.edgecolor: fdf6fa
 
-### LEGEND
+## ***************************************************************************
+## * LEGEND                                                               *
+## ***************************************************************************
 legend.fontsize: 12
 
-### TICKS
+## ***************************************************************************
+## * TICKS                                                               *
+## ***************************************************************************
 xtick.direction: out
 ytick.direction: out
 xtick.color: bf2986
 ytick.color: bf2986
 
-### AXES
+## ***************************************************************************
+## * AXES                                                               *
+## ***************************************************************************
 axes.grid: False
 axes.facecolor: 00cdff
 axes.edgecolor: eeb4d7
@@ -36,4 +48,20 @@ axes.labelsize: 12
 axes.labelweight: bold
 axes.spines.top: True
 axes.spines.right: True
+axes.axisbelow: True
 axes.prop_cycle: cycler('color', ['a62675', 'fdf6fa', 'd74ea2', 'f5d1e6', 'eeb4d7', 'd74ea2', 'bf2986'])
+
+## ***************************************************************************
+## * GRIDS                                                               *
+## ***************************************************************************
+grid.color: eeb4d7
+
+## ***************************************************************************
+## * BOXPLOT                                                                 *
+## ***************************************************************************
+boxplot.flierprops.color: white
+boxplot.flierprops.markeredgecolor: fdf6fa
+boxplot.boxprops.color: fdf6fa
+boxplot.whiskerprops.color: fdf6fa
+boxplot.capprops.color: fdf6fa
+boxplot.medianprops.color: a62675

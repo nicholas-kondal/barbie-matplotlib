@@ -1,4 +1,5 @@
 import numpy as np
+from numpy.random import RandomState
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as font_manager
 from matplotlib import rcParams
@@ -7,8 +8,8 @@ from matplotlib import rcParams
 np.random.seed(19680801)
 
 # Add Barbie font to the list of available fonts
-font_manager.fontManager.addfont('barbie.ttf')
-rcParams['font.family'] = 'Barbie'
+font_manager.fontManager.addfont('Bartex.ttf')
+rcParams['font.family'] = 'Bartex'
 
 # Use hyphen instead of Unicode minus
 rcParams['axes.unicode_minus'] = False
@@ -84,7 +85,7 @@ def plot_figure(style_label=""):
     """Setup and plot the demonstration figure with a given style."""
     # Use a dedicated RandomState instance to draw the same "random" values
     # across the different figures.
-    prng = np.random.RandomState(96917002)
+    prng = RandomState(96917002)
 
     fig, axs = plt.subplots(ncols=5, nrows=1, num=style_label,
                             figsize=(14.8, 2.8), layout='constrained')
